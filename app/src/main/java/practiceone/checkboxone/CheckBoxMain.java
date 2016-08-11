@@ -44,8 +44,10 @@ public class CheckBoxMain extends AppCompatActivity {
                 public void onClick(View view) {
                     if (userOne.isChecked()) {
                         userTwo.setChecked(true);
+                        userThree.setChecked(false);
                     }else{
                         userTwo.setChecked(false);
+                        userThree.setChecked(true);
                     }
                 }
             });
